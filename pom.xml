@@ -53,15 +53,15 @@
 		</dependency>
 		<!-- End: For live app load -->
 		<!-- Start: For in memory DB support. -->
-		<!-- <dependency> <groupId>org.hsqldb</groupId> <artifactId>hsqldb</artifactId> 
-			<scope>runtime</scope> </dependency> -->
-		<!-- End: For in memory DB support. -->
-		<!-- Start: Dependency for mysql database. -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- End: For in memory DB support. -->
+		<!-- Start: Dependency for mysql database. -->
+		<!-- <dependency> <groupId>mysql</groupId> <artifactId>mysql-connector-java</artifactId> 
+			<scope>runtime</scope> </dependency> -->
 		<!-- End: Dependency for mysql database. -->
 		<!-- Start: Dependency for test Bundles- Junit, Mokito, Hamcrest and spring -->
 		<dependency>

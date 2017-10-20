@@ -47,7 +47,7 @@ public class InitDbSeederService {
 	}
 
 	/**
-	 * To add the initial data of User and Booker with there relation. Forlocal
+	 * To add the initial data of User and Booker with there relation. For local
 	 * DB only
 	 */
 	private void addUserAndBooker() {
